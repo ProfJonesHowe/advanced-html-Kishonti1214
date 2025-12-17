@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-  <title>CSS Lab</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Azriel Clothing Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#">Logo</a>
-    <input id="menu-toggle" class="menu-toggle" type="checkbox">
-    <label class="menu-btn" for="menu-toggle">☰</label>
-    <nav class="site-nav">
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Labs</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="container">
-    <h1>A Webpage</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     Integer non nunc vitae magna vestibulum posuere. Cras imperdiet, 
-     risus nec laoreet fermentum, eros nibh ultricies odio, eget gravida
-      nulla velit sed lorem. Suspendisse potenti. Curabitur tempor urna 
-      at justo interdum, non cursus urna tempor. Nulla facilisi. Fusce 
-      sit amet nibh nec felis convallis gravida ut et augue. Donec eget f
-      acilisis elit.</p>
-  </main>
+    <!-- Header -->
+    <header>
+        <h1>Azriel</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Sale</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Style That Defines You</h2>
+        <p>Discover the latest trends in fashion</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Featured Products</h2>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="T-Shirt">
+                <h3>Casual T-Shirt</h3>
+                <p>$25</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Jacket">
+                <h3>Denim Jacket</h3>
+                <p>$60</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Dress">
+                <h3>Summer Dress</h3>
+                <p>$45</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Azriel. All rights reserved.</p>
+    </footer>
+
 </body>
-</html> 
+</html>
